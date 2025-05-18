@@ -45,4 +45,4 @@ Run the following to verify functionality:
 
 ```bash
 python GQA.py
-``
+```
