@@ -21,7 +21,7 @@ In GQA, we use more **query heads** than **key/value heads**. Key and value head
 ## Usage
 
 ```python
-from gqa import GroupedQueryAttention
+from GQA import GroupedQueryAttention
 import torch
 
 # Create attention module
