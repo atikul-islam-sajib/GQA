@@ -39,7 +39,7 @@ print(output.shape)  # torch.Size([64, 128, 512])
 
 ---
 
-## 🧪 Test
+## Test
 
 Run the following to verify functionality:
 
