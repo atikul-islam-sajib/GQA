@@ -1,0 +1,47 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "GroupedQueryAttention",
+        "kind": 6,
+        "importPath": "GQA",
+        "description": "GQA",
+        "peekOfCode": "class GroupedQueryAttention:\n    def __init__(\n        self,\n        dimension: int = 512,\n        query_heads: int = 8,\n        kv_heads: int = 4,\n        dropout: float = 0.1,\n    ):\n        self.dimension = dimension\n        self.query_heads = query_heads",
+        "detail": "GQA",
+        "documentation": {}
+    }
+]
