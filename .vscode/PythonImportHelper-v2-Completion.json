@@ -18,6 +18,15 @@
         "documentation": {}
     },
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -40,7 +49,7 @@
         "kind": 6,
         "importPath": "GQA",
         "description": "GQA",
-        "peekOfCode": "class GroupedQueryAttention:\n    def __init__(\n        self,\n        dimension: int = 512,\n        query_heads: int = 8,\n        kv_heads: int = 4,\n        dropout: float = 0.1,\n    ):\n        self.dimension = dimension\n        self.query_heads = query_heads",
+        "peekOfCode": "class GroupedQueryAttention(nn.Module):\n    def __init__(\n        self,\n        dimension: int = 512,\n        query_heads: int = 8,\n        kv_heads: int = 4,\n        dropout: float = 0.1,\n    ):\n        super(GroupedQueryAttention, self).__init__()\n        self.dimension = dimension",
         "detail": "GQA",
         "documentation": {}
     }
